@@ -110,7 +110,7 @@ func main() {
 	w.Flush()
 
 	// 打印统计信息和结果
-	fmt.Printf("找到 %d 个VPC资源 (活跃: %d, IPAM管理: %d, 符合筛选条件: %d)\n\n", 
+	fmt.Printf("找到 %d 个VPC资源 (活跃: %d, IPAM管理: %d, 符合筛选条件: %d)\n\n",
 		totalVPCs, activeVPCs, ipamManagedVPCs, filteredVPCs)
 	fmt.Print(buf.String())
 
